@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Pizzeria - Wszystko o Pizzy</title>
+    <style>
+        /* Общие настройки */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: #e74c3c;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Заголовок и навигация */
+        header {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        nav ul li a:hover {
+            color: #f4f4f4;
+        }
+
+        /* Секции */
+        section {
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 1200px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            padding-left: 20px;
+        }
+
+        section ul li {
+            margin: 10px 0;
+        }
+
+        section img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* Рецепт */
+        .recipe {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .recipe h3 {
+            font-size: 1.8em;
+            color: #2c3e50;
+        }
+
+        .recipe p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        /* Ссылки */
+        a {
+            color: #e74c3c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Подвал */
+        footer {
+            text-align: center;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Moja Pizzeria</h1>
+        <nav>
+            <ul>
+                <li><a href="#przepisy">Przepisy</a></li>
+                <li><a href="#ulubione-strony">Moje ulubione strony</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="przepisy">
+        <h2>Wszystko o Pizzy</h2>
+        <p>Pizza to jedno z najbardziej ukochanych dań na całym świecie. Pochodzi z Włoch, ale obecnie jest popularna na każdym kontynencie. Jest to danie, które możemy przygotować na wiele sposobów, dopasowując je do własnych upodobań.</p>
+        <img src="pizza.jpg" alt="Pizza" width="200" height="300">
+
+        <h3>Historia Pizzy</h3>
+        <p>Pizza ma długą historię, która sięga starożytnej Grecji. Jednak współczesna pizza, znana nam dzisiaj, wyewoluowała w Neapolu w XVII wieku. Pizzaioli z Neapolu byli pierwszymi, którzy zaczęli używać pomidorów jako składnika pizzy, co doprowadziło do powstania wersji, którą znamy dzisiaj.</p>
+
+        <div class="recipe">
+            <h3>Przepis na Pizza Margherita</h3>
+            <p>Pizza Margherita to klasyczna wersja pizzy z prostymi składnikami: pomidory, mozzarella, bazylia, oliwa z oliwek. Oto jak ją przygotować:</p>
+            <ul>
+                <li>300 g mąki pszennej</li>
+                <li>200 ml wody</li>
+                <li>25 g drożdży</li>
+                <li>1 łyżeczka soli</li>
+                <li>200 g świeżej mozzarelli</li>
+                <li>200 g sosu pomidorowego</li>
+                <li>Świeża bazylia</li>
+                <li>Oliwa z oliwek</li>
+            </ul>
+            <p><strong>Przygotowanie:</strong></p>
+            <p>1. W misce wymieszaj mąkę z drożdżami. Dodaj wodę i sól, a następnie wyrób ciasto. Pozostaw je na 1 godzinę do wyrośnięcia.</p>
+            <p>2. Rozgrzej piekarnik do 220°C. Uformuj ciasto na cienki placek, a następnie posmaruj je sosem pomidorowym.</p>
+            <p>3. Na wierzchu połóż mozzarellę i upiecz pizzę przez 10-12 minut, aż brzegi staną się złociste.</p>
+            <p>4. Po wyjęciu z piekarnika, udekoruj pizzę świeżą bazylią i skrop oliwą z oliwek. Gotowe!</p>
+        </div>
+    </section>
+
+    <section id="ulubione-strony">
+        <h2>Moje ulubione strony</h2>
+        <ul>
+            <li><a href="https://www.pizzaonline.pl" target="_blank">Pizza Online</a></li>
+            <li><a href="https://www.pizzahut.pl" target="_blank">Pizza Hut</a></li>
+            <li><a href="https://www.bbcgoodfood.com" target="_blank">BBC Good Food</a></li>
+        </ul>
+    </section>
+
+   <section id="kontakt">
+        <h2>Kontakt</h2>
+        Masz pytania lub chcesz podzielić się swoim przepisem na pizzę? Skontaktuj się ze mną przez e-mail: <a href="mailto:kontakt@mojapizzeria.pl">kontakt@mojapizzeria.pl</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Moja Pizzeria. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>
